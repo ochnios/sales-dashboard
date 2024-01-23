@@ -1,0 +1,150 @@
+/***** all widgets *****/
+.widget {
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+.widget h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.filter-elem > a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+[data-bs-theme="dark"] .filter-active {
+  font-weight: 700;
+  color: #aa86fc !important;
+}
+
+[data-bs-theme="light"] .filter-active {
+  font-weight: 700;
+  color: #5131c5 !important;
+}
+
+[data-bs-theme="light"] .widget .default-box {
+  border-radius: 3px;
+  background-color: #f8f9fa;
+  border: 1px solid #bfbfbf;
+}
+
+[data-bs-theme="light"] .widget {
+  border: 3px solid #efefef;
+}
+
+[data-bs-theme="light"] .widget > h3 {
+  padding: 8px;
+}
+
+[data-bs-theme="light"] .widget h3 a {
+  color: #212529;
+}
+
+[data-bs-theme="light"] .filter-elem > a {
+  color: #212529;
+}
+
+[data-bs-theme="dark"] .widget .default-box {
+  border-radius: 3px;
+  background-color: #303030;
+  border: 1px solid #606060;
+}
+
+[data-bs-theme="dark"] .widget {
+  border: 3px solid #454545;
+}
+
+[data-bs-theme="dark"] .widget > h3 {
+  padding: 8px;
+}
+
+[data-bs-theme="dark"] .widget h3 a {
+  color: #dee2e6;
+}
+
+[data-bs-theme="dark"] .filter-elem > a {
+  color: #dee2e6;
+}
+
+/***** orders widget *****/
+.order-type {
+  border-radius: 3px;
+}
+
+.order-type .order-count {
+  font-weight: 700;
+}
+
+[data-bs-theme="light"] .order-type-link a {
+  color: #212529;
+}
+
+@media (min-width: 1200px) {
+  .order-type {
+    display: flex;
+    flex-flow: column wrap;
+    height: 10em;
+  }
+
+  .order-type-link {
+    flex: 0 1 auto;
+  }
+
+  .order-type-amount {
+    flex: 1 1 auto;
+    line-height: 2.5em;
+    font-size: 40px;
+  }
+}
+
+[data-bs-theme="light"] .orders-widget .toPay {
+  background-color: #ffbab6;
+  border: 1px solid #ee787e;
+}
+
+[data-bs-theme="light"] .orders-widget .toSend {
+  background-color: #dcc3ff;
+  border: 1px solid #aa86fc;
+}
+
+[data-bs-theme="light"] .orders-widget .returns {
+  background-color: #fff27f;
+  border: 1px solid #ffc107;
+}
+
+[data-bs-theme="dark"] .order-type-link a {
+  color: #dee2e6;
+}
+
+[data-bs-theme="dark"] .orders-widget .toPay {
+  background-color: #6f1222;
+  border: 1px solid #a52334;
+}
+
+[data-bs-theme="dark"] .orders-widget .toSend {
+  background-color: #2c1892;
+  border: 1px solid #5131c5;
+}
+
+[data-bs-theme="dark"] .orders-widget .returns {
+  background-color: #5b3d02;
+  border: 1px solid #926904;
+}
+
+/***** reviews widget *****/
+.reviewer-name {
+  margin-top: -2px;
+}
+
+/***** ranking widget *****/
+.offer-photo {
+  width: 60px;
+}
+
+/***** sales chart widget *****/
+.sales-chart {
+  width: 100%;
+  height: 300px;
+}

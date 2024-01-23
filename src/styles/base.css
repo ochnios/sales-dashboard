@@ -1,0 +1,25 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+[data-bs-theme="light"] p,
+[data-bs-theme="light"] h3 {
+  color: #212529;
+}
+
+[data-bs-theme="dark"] p,
+[data-bs-theme="dark"] h3 {
+  color: #dee2e6;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.text-xs {
+  font-size: 0.85em;
+}
